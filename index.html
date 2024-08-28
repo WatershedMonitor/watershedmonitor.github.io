@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watershed Monitor Board</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #16a085;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .sensor {
+            margin-bottom: 20px;
+        }
+        .board-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="images/boardcandy.png" alt="Watershed Monitor Board" class="board-image">
+
+    <h1>Watershed Monitor Board</h1>
+    <p>The Watershed Monitor Board is an Arduino-based project designed to monitor environmental conditions in watershed areas. This project utilizes a variety of sensors and components to collect and transmit data, ensuring comprehensive environmental monitoring.</p>
+
+    <h2>Included Sensors and Components</h2>
+
+    <div class="sensor">
+        <h3>BME680 Environmental Sensor</h3>
+        <p>The <strong>BME680</strong> sensor is an environmental sensor capable of measuring temperature, humidity, pressure, and volatile organic compounds (VOCs). This versatile sensor is ideal for monitoring the atmospheric conditions in watershed areas.</p>
+        <p>The sensor is integrated into the project using the <strong>Zanshin_BME680</strong> library. For more details and to access the library, visit the <a href="https://github.com/ZanshinCode/Zanshin_BME680" target="_blank">Zanshin_BME680 GitHub page</a>.</p>
+    </div>
+
+    <div class="sensor">
+        <h3>Digital Scale</h3>
+        <p>The <strong>Digital Scale</strong> is used to measure the weight of collected samples or objects. This can be particularly useful in monitoring sediment levels or other materials in the watershed environment.</p>
+        <p>The scale is controlled using the <strong>SparkFun Qwiic Scale NAU7802</strong> library. You can find more information and download the library from the <a href="https://github.com/sparkfun/SparkFun_Qwiic_Scale_NAU7802_Arduino_Library" target="_blank">SparkFun GitHub page</a>.</p>
+    </div>
+
+    <div class="sensor">
+        <h3>Serial GPS Breakout</h3>
+        <p>The <strong>Serial GPS Breakout</strong> provides accurate geolocation data, allowing the monitoring board to tag environmental data with precise location information. This is crucial for tracking the movement of water, sediments, and other materials within the watershed.</p>
+    </div>
+
+    <div class="sensor">
+        <h3>ESP32 Microprocessor</h3>
+        <p>The <strong>ESP32</strong> microprocessor is the brain of the Watershed Monitor Board. It features built-in BLE (Bluetooth Low Energy) and WiFi communications, enabling wireless data transmission and remote control of the board.</p>
+    </div>
+
+    <div class="sensor">
+        <h3>RF96 LoRa Long Range Radio</h3>
+        <p>The <strong>RF96 LoRa Long Range Radio</strong> operates at 915MHz and allows the Watershed Monitor Board to transmit data over long distances, making it ideal for remote monitoring in vast watershed areas.</p>
+    </div>
+
+</body>
+</html>
