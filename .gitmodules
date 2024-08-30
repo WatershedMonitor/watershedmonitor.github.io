@@ -1,0 +1,3 @@
+[submodule "SparkFun_Watershed_Monitor"]
+	path = SparkFun_Watershed_Monitor
+	url = https://github.com/sparkfun/SparkFun_Watershed_Monitor/
